@@ -36,6 +36,18 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+&mt {
+    bindings = <&kp>, <&kp>;
+
+    flavor = "balanced";
+    retro-tap;
+};
+
+&lt {
+    retro-tap;
+    flavor = "balanced";
+};
+
 / {
     // Activate ADJUST layer by pressing raise and lower
 
