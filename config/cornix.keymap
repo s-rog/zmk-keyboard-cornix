@@ -111,7 +111,7 @@
             label = "Func";
         };
 
-        ESDF {
+        Game {
             bindings = <
 &kp GRAVE  &kp ESC    &kp Q  &kp W      &kp E      &kp R                  &trans  &trans  &trans  &trans  &trans  &trans
 &kp TAB    &kp LSHFT  &kp A  &kp S      &kp D      &kp F                  &trans  &trans  &trans  &trans  &trans  &trans
@@ -119,14 +119,14 @@
 &none      &none      &none  &kp ENTER  &kp SPACE  &mo 4                  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            label = "ESDF";
+            label = "Game";
         };
 
         Num {
             bindings = <
-&trans  &trans  &kp N1  &kp N2  &kp N3  &kp N4                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N5  &kp N6  &kp N7  &kp N8  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
